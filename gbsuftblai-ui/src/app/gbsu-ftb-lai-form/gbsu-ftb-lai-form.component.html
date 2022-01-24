@@ -1,0 +1,8 @@
+<div class="container">
+  <h2>Gbsu Ftb Lai</h2>
+  <label>Number to convert</label>
+  <input [(ngModel)]="inputNumber" type="number" class="form-control" placeholder="inputNumber">
+  <button type="button" class="btn btn-primary"
+          [disabled]="isInputNumberEmpty()"
+          (click)="convertValue()">Convert</button>
+</div>
